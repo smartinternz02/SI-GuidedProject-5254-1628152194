@@ -1,0 +1,58 @@
+body {
+    animation:bgcolor infinite 5s;
+}
+.submission {
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid #000000;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.submission label {
+    color: rgb(0, 4, 253);
+    padding: 1rem 0 0.25rem;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 20px;
+}
+.submission input,textarea{
+    width:100%;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border-color: brown;
+}
+
+.btn {
+    background-color: rgb(238, 43, 29);
+    color: azure;
+    text-transform: uppercase;
+    width: 10%;
+    padding: 0.5rem 0;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: black;
+}
+
+@keyframes bgcolor {
+	0% {
+		background:#F97F51;
+	}
+	20% {
+		background:#FEA47F ;
+	}
+	40% {
+		background:#25CCF7 ;
+	}
+	60% {
+		background:#EAB543 ;
+	}
+	80% {
+		background:#182C61;
+	}
+	100% {
+		background:#FC427B ;
+	}
+}

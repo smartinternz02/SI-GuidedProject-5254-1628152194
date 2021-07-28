@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Text Extraction Page</title>
+<link rel="stylesheet" th:href="@{Style1.css}">
+</head>
+<body>
+
+<form th:action="@{/extractText}" method="post" class="submission">
+  <label for="directory">directory:</label><br>
+  <input type="text" id="directory" name="directory" placeholder="C:/Documents/project"/><br>
+  <label for="result">Result:</label><br>
+  <textarea id="result" name="result" rows="25" cols="75" th:placeholder="${extractedText}"></textarea><br><br>
+  <input type="submit" value="Submit" class="btn">
+</form> 
+
+</body>
+</html>
