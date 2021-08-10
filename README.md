@@ -8,6 +8,8 @@
 * [Screenshots](#screenshots)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
+* [Project demonstration video](#project-demonstration-video)
+* [Project link](#project-link)
 
 
 ## General Information
@@ -48,3 +50,12 @@
 ## Acknowledgements
 - This project was inspired by our learnings from the internship.
 - This project was based on [this dataset](https://https://github.com/tesseract-ocr/tessdata).
+
+## Project demonstration video
+-[click here](https://drive.google.com/file/d/1dDz2D3miD3GQEMNa4JrU56kJbu-pTEwC/view?usp=sharing).
+
+## Project link
+-[click here](https://smartidscanner.herokuapp.com/).
+
+
+
